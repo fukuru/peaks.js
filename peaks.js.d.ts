@@ -159,7 +159,7 @@ declare module 'peaks.js' {
     setAmplitudeScale: (scale: number) => void;
     setWaveformColor: (color: string) => void;
     showPlayheadTime: (show: boolean) => void;
-  };
+  }
 
   interface PeaksInstance {
     destroy: () => void;
